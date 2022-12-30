@@ -1,0 +1,48 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+#tip-calculator {
+     width: 300px;
+     margin: 10% auto;
+     text-align: center;
+     font-family: sans-serif;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: column;
+     gap:50px;
+   }
+   
+   input[type="number"] {
+     width: 60px;
+     text-align: right;
+   }
+   
+   select {
+     width: 75px;
+   }
+   
+   button {
+     background-color: lightblue;
+     border: none;
+     padding: 5px 10px;
+     cursor: pointer;
+   }
+   
+   button:hover {
+     background-color: skyblue;
+   }
+   @media screen and (max-width:800px) {
+     #tip-calculator {
+          width: auto;
+          margin: 10%;
+          text-align: center;
+          font-family: sans-serif;
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          gap:50px;
+        }
+   }
+   
